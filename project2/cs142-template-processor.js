@@ -13,6 +13,9 @@ Cs142TemplateProcessor.prototype.fillIn = function (dictionary) {
     });
 };
 
+window.Cs142TemplateProcessor = Cs142TemplateProcessor;
+
+// test
 var template = "My favorite month is {{month}} but not the day {{day}} or the year {{year}}";
 var dateTemplate = new Cs142TemplateProcessor(template);
 

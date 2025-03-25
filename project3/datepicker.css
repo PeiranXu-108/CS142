@@ -38,7 +38,7 @@
     grid-template-columns: repeat(7, 1fr);
     text-align: center;
     font-weight: bold;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 10px solid #ccc;
     padding-bottom: 5px;
   }
   
